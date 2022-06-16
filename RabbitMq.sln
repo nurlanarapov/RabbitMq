@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitPublisher", "RabbitStart\RabbitPublisher.csproj", "{58BCB85B-749A-4D5C-BC69-12C24621A009}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitPublisher", "RabbitStart\RabbitPublisher\RabbitPublisher.csproj", "{58BCB85B-749A-4D5C-BC69-12C24621A009}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitStart", "RabbitStart", "{AE42CEFD-03F4-4F38-A85C-70C2E438CF2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitConsumer", "RabbitConsumer\RabbitConsumer.csproj", "{D095917A-D5A5-428D-B861-BB9711404FD8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitConsumer", "RabbitStart\RabbitConsumer\RabbitConsumer.csproj", "{D095917A-D5A5-428D-B861-BB9711404FD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
