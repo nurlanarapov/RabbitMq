@@ -18,8 +18,6 @@ public class Program
         using (var connection = factory.CreateConnection())
         using (var channel = connection.CreateModel())
         {
-            
-
             var consumer = new EventingBasicConsumer(channel);
 
             consumer.Received += (model, ea) =>
